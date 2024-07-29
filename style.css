@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC; /* Beige background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D2B48C; /* Tan background for header */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#portfolio {
+    padding: 50px 20px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.portfolio-info {
+    max-width: 600px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #D2B48C; /* Tan background for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #D2B48C; /* Tan background for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #D2B48C;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #D2B48C; /* Tan background for footer */
+    color: #fff;
+}
